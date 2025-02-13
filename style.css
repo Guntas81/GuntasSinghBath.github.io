@@ -82,9 +82,8 @@ button {
 .education-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    justify-content: center;
     gap: 20px;
-    margin: auto;
+    margin: 0 auto;
     max-width: 900px;
 }
 
@@ -93,24 +92,21 @@ button {
     color: white;
     padding: 20px;
     text-align: center;
-    flex: 1 1 280px;
     border-radius: 10px;
 }
 
 /* Hobbies Section */
 .hobbies {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
     text-align: center;
-    gap: 20px;
+    padding: 50px;
     background: white;
 }
 
 .hobbies-grid {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     gap: 20px;
-    justify-content: center;
+    margin: 0 auto;
     max-width: 1000px;
 }
 
@@ -118,6 +114,7 @@ button {
     background: #ebebeb;
     padding: 15px;
     border-radius: 10px;
+    text-align: center;
 }
 
 .hobby img {
