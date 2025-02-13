@@ -67,9 +67,23 @@ button {
 
 /* About Section */
 .about {
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     padding: 50px;
     background: #ebebeb;
+}
+
+.about .left {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.about .right {
+    max-width: 600px;
+    font-size: 18px;
+    line-height: 1.6;
+    padding-left: 30px;
 }
 
 /* Education Section */
