@@ -147,3 +147,9 @@ footer {
     text-align: center;
     padding: 15px;
 }
+/* Sizing */
+.container {
+    max-width: 1200px;  /* Adjust based on your design */
+    margin: 0 auto;  /* Centers content */
+    padding: 20px;  /* Adds spacing */
+}
