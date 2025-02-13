@@ -163,3 +163,13 @@ footer {
     margin: auto;
     padding: 40px 20px; 
 }
+@media (max-width:768px)
+{
+    .container{
+        width: 100%;
+    }
+}
+html,body {
+    height: 100%;
+    width: 100%;
+}
