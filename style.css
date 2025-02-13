@@ -45,6 +45,7 @@ nav ul li a {
 
 .home img {
     width: 250px;
+    height: auto;
     border-radius: 10px;
 }
 
@@ -76,8 +77,10 @@ button {
 
 .education-grid {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
+    max-width: 1000px;
 }
 
 .edu-card {
@@ -96,8 +99,10 @@ button {
 
 .hobbies-grid {
     display: flex;
+    flex-wrap: wrap;
     gap: 20px;
     justify-content: center;
+    max-width: 1000px;
 }
 
 .hobby {
@@ -149,11 +154,12 @@ footer {
 }
 /* Sizing */
 .container {
-    max-width: 1200px;  
+    max-width: 1100px;  
     margin: 0 auto;  
     padding: 20px;  
 }
-body {
-    max-width: 1400px;  
-    margin: 0 auto;  
+.home, .about, .education, .hobbies, .contact {
+    max-width: 1100px;
+    margin: auto;
+    padding: 40px 20px; 
 }
