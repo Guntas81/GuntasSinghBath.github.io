@@ -75,7 +75,7 @@ button {
 
 .button-container button,
 .button-container a {
-    display: inline-block;
+    display: block;
     padding: 10px 20px;
     text-align: center;
     background: black;
