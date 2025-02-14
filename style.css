@@ -67,6 +67,25 @@ button {
     width: fit-content;
 }
 
+.button-container {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.button-container button,
+.button-container a {
+    display: inline-block;
+    padding: 10px 20px;
+    text-align: center;
+    background: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    text-decoration:  none;
+    font-size: 16px;
+}
+
 /* About Section */
 .about {
     display: flex;
