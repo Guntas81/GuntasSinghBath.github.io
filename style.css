@@ -150,16 +150,24 @@ button {
 }
 
 .hobby {
+    display: flex;
+    align-items: center;
     background: #ebebeb;
     padding: 15px;
     border-radius: 10px;
-    text-align: center;
+    text-align: left;
+    gap: 15px;
 }
 
 .hobby img {
-    width: 100%;
+    width: 150px;
     height: 150px;
     border-radius: 10px;
+    object-fit: cover;
+}
+
+.hobby .text {
+    flex: 1;
 }
 
 /* Contact Section */
